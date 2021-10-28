@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=748, initial-scale=1.0">
+    <title>Livraria para Todos</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <!-- Header -->
+        <div class="header">
+            <div class="firstHeader">
+                <div>
+                    <h1>Livraria para Todos</h1>
+                    <h2>Educação e cultura ao alcance de todos!</h2>
+                </div>
+                <div>
+                    <p>Olá, seja bem vindo(a)! :)</p>
+                    <span><a href="../login/index.html">Entre</a> ou <a
+                            href="../login/index.html">Cadastre-se</a></span>
+                </div>
+            </div>
+            <ul class="menu">
+                <lu><a href="../home/index.html">Home</a></lu>
+                <lu>Pesquisa</lu>
+                <lu>Perfil</lu>
+                <lu>Sobre</lu>
+            </ul>
+        </div>
+        <!-- Body -->
+        <div class="content">
+            <div class="formWrapper">
+                <form class="login" action="" method="post">
+                    <h3>Fazer login:</h3>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="password">Senha:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class='formInput'>
+                        <input type="submit" value="Entrar">
+                    </div>
+                </form>
+                <form class="signup" action="" method="post">
+                    <h3>Cadastre-se:</h3>
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="password">Senha:</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <label for="password">Confirme sua senha:</label>
+                        <input type="password" name="password-confirm" id="password-confirm" required>
+                    </div>
+                    <div class='formInput'>
+                        <input type="submit" value="Registrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
